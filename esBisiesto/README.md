@@ -6,8 +6,8 @@ Si el año no es divisible por 100 pero sí por 4, se devuelve `true`, ya que se
 
 Código completo:
 ```javascript
-function isLeapYear(year) {
-    
+function esBisiesto(year) {
+
   if (year % 4 === 0) {
     if (year % 100 === 0) {
       if (year % 400 === 0) {
